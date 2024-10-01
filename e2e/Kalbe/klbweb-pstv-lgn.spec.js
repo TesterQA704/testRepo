@@ -54,9 +54,9 @@ test('kation positive login', async ({ page }) => {
     await page.getByRole('button', { name: 'Login' }).click();
     
     //Verify
-    await expect(page.getByRole('heading', { name: 'Kalbe Innovation Platform' })).toBeVisible();
-    const headingText = await page.getByRole('heading', { name: 'Kalbe Innovation Platform' }).textContent();
-    expect(headingText).toBe('Kalbe Innovation Platform');
+    await expect(page.getByRole('link', { name: 'Home' })).toBeVisible();
+    const headingText = await page.getByRole('link', { name: 'Home' }).textContent();
+    expect(headingText).toBe('Home');
 
 });
 
