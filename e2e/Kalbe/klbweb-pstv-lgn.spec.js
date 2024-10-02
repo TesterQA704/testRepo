@@ -111,7 +111,7 @@ test('momonline positive login', async ({ page }) => {
     //Logout
     await page.getByRole('link', { name: ' Logout' }).click();
 
-    //verify
+    //Verify URL
     const currentURL = page.url();
     expect(currentURL).toBe('https://momonline.kalbe.co.id/');
 
