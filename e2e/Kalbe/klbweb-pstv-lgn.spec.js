@@ -14,7 +14,8 @@ test('amon positive login', async ({ page }) => {
     expect(headingText).toBe('My Task');
 
     //Logout
-    await page.getByRole('link', { name: ' Hi, HAIDAR ALDI WINTORO' }).click();
+    const logOutIcon = page.locator ("//li[@class='nav-item dropdown']");
+    await logOutIcon.click();
     await page.getByRole('link', { name: ' Log Out' }).click();
 
     //Verify URL
@@ -59,7 +60,8 @@ test('ils positive login', async ({ page }) => {
     expect(headingText).toBe('My Task');
 
     //Logout
-    await page.getByRole('link', { name: ' Hi, HAIDAR ALDI WINTORO' }).click();
+    const logOutIcon = page.locator ("//li[@class='nav-item dropdown']");
+    await logOutIcon.click();
     await page.getByRole('link', { name: ' Log Out' }).click();
 
     //Verify URL
@@ -82,7 +84,8 @@ test('kation positive login', async ({ page }) => {
     expect(headingText).toBe('Home');
 
     //Logout
-    await page.getByRole('button', { name: 'Hi, HAIDAR ALDI WINTORO' }).hover();
+    const logOutIcon = page.locator ("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[2]/div[1]");
+    await logOutIcon.hover();
     await page.getByRole('menuitem', { name: 'Logout' }).click();
 
     //Verify Login Button
