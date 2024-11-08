@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4291","momonline positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:11 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""
+"","6092","amon positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:13 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""
+"","7835","ils positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:14 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""
+"","6179","kation positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:13 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""
+"","4496","bsCorp positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:11 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""
+"","4466","PLM positive login","chromium","Fri Nov 08 10:34:07 WIB 2024","passed","Fri Nov 08 10:34:11 WIB 2024","Test Login Website2 Kalbe","Kalbe\klbweb-pstv-lgn.spec.js","",""

@@ -1,0 +1,3 @@
+@echo off
+
+allure open
