@@ -23,7 +23,18 @@ module.exports = defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   
   
-  reporter: [["line"], ["allure-playwright"], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
+  reporter: [ [
+    'playwright-mail-reporter',
+    {
+      host: "smtp.resend.com",
+      port: 465,
+      username: "resend",
+      password: `re_Er5LPDfo_A6PEM4nCEfURH6Jbz1PdFSnh`,
+      from: "onboarding@resend.dev",
+      to: "wilbur.haratua21@gmail.com"
+    }
+  ],
+    ["line"], ["allure-playwright"], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
