@@ -30,8 +30,8 @@ module.exports = defineConfig({
       port: 465,
       username: "resend",
       password: `re_Er5LPDfo_A6PEM4nCEfURH6Jbz1PdFSnh`,
-      from: "onboarding@resend.dev",
-      to: "wilbur.haratua21@gmail.com"
+      // from: "onboarding@resend.dev",
+      // to: "wilbur.haratua21@gmail.com"
     }
   ],
     ["line"], ["allure-playwright"], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
